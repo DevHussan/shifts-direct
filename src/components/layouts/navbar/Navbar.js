@@ -16,7 +16,7 @@ const Navbar = () => {
       color: "#ffffff",
       padding: "8px",
       textDecoration: "none",
-      fontSize: "18px",
+      fontSize: "20px",
       fontWeight: "600",
     },
   }));
@@ -33,7 +33,7 @@ const Navbar = () => {
                 sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
               />
               <NavLink>
-                <Link to="/">Direct Shifts</Link>
+                <Link to="/">Shifts Direction</Link>
               </NavLink>
             </NavLink>
 
