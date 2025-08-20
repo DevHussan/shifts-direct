@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/layouts/navbar/Navbar";
 import ReferFriend from "./components/ReferFriend/ReferFriend";
@@ -8,7 +8,7 @@ import { isAuthorized } from 'helpers/auth';
 
 
 function App() {
-  const isLoggedIn = isAuthorized();
+  // const isLoggedIn = isAuthorized();
   return (
     <div className="App">
       <BrowserRouter>
