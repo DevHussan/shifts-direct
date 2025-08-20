@@ -7,7 +7,7 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
-export const MainGrid = styled(Grid)(({ }) => ({
+export const MainGrid = styled(Grid)(({
   backgroundImage: "url(https://source.unsplash.com/random)",
   backgroundRepeat: "no-repeat",
   backgroundColor: (t) =>
@@ -16,7 +16,7 @@ export const MainGrid = styled(Grid)(({ }) => ({
   backgroundPosition: "center",
 }));
 
-export const MainBox = styled(Box)(({ }) => ({
+export const MainBox = styled(Box)(({
   margin: "64px 32px",
   display: "flex",
   flexDirection: "column",
