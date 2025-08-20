@@ -9,7 +9,7 @@ import { Link, Outlet } from "react-router-dom";
 import styled from "@emotion/styled";
 
 const Navbar = () => {
-  const NavLink = styled(Typography)(({ }) => ({
+  const NavLink = styled(Typography)(({
     display: "flex",
     alignItems: "center",
     "> a": {
