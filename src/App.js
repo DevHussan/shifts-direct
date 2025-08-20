@@ -4,15 +4,11 @@ import Navbar from "./components/layouts/navbar/Navbar";
 import ReferFriend from "./components/ReferFriend/ReferFriend";
 import Login from "./pages/authentication/Login";
 import Signup from "./pages/authentication/Signup";
-import { isAuthorized } from 'helpers/auth';
-
 
 function App() {
-  // const isLoggedIn = isAuthorized();
   return (
     <div className="App">
       <BrowserRouter>
-        {/* {!isLoggedIn && <Navigate to="/login" />} */}
         <Routes>
           <Route path="/" element={<Navbar />}>
             <Route path="/" element={<ReferFriend />} />

@@ -29,7 +29,7 @@ export const sendReferralEmail = (email) => {
     }
     return false;
   })
-  .catch((err) => {
+  .catch(() => {
     return false;
   })
 }
